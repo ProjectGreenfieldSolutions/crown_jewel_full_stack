@@ -1,0 +1,13 @@
+#################################################################
+# * * * * * command_to_execute
+# - - - - -
+# | | | | |
+# | | | | +---- Day of the week (0 - 7) (Sunday is both 0 and 7)
+# | | | +------ Month (1 - 12)
+# | | +-------- Day of the month (1 - 31)
+# | +---------- Hour (0 - 23)
+# +------------ Minute (0 - 59)
+#################################################################
+0 * * * * /scripts/backup_db.sh >> /var/log/script.log 2>&1
+0 4 * * * /scripts/clear_logs.sh >> /var/log/script.log 2>&1
+@reboot /scripts/restore_db.sh >> /var/log/script.log 2>&1

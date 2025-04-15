@@ -1,0 +1,12 @@
+# Virtual environment for project's python libraries
+venv
+
+# PyCharm related files
+*.pyc
+.idea
+
+# NiceGUI related files
+.nicegui
+
+# MacOS related files
+.DS_Store

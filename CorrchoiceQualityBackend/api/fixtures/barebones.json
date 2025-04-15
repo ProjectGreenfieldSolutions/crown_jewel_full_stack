@@ -1,0 +1,4082 @@
+[
+  {
+    "model": "api.plant",
+    "pk": 1,
+    "fields": {
+      "code": "ms",
+      "desc": "Mason",
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.plant",
+    "pk": 2,
+    "fields": {
+      "code": "mc",
+      "desc": "Multicore",
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.plant",
+    "pk": 3,
+    "fields": {
+      "code": "op",
+      "desc": "Massillon",
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.plant",
+    "pk": 4,
+    "fields": {
+      "code": "cc",
+      "desc": "Cincinnati",
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.plant",
+    "pk": 5,
+    "fields": {
+      "code": "sp",
+      "desc": "Concord",
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.plant",
+    "pk": 6,
+    "fields": {
+      "code": "da",
+      "desc": "Greif - Dallas",
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.plant",
+    "pk": 7,
+    "fields": {
+      "code": "gc",
+      "desc": "Greif Coating",
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.plant",
+    "pk": 8,
+    "fields": {
+      "code": "pa",
+      "desc": "Palmyra",
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "8pt",
+      "desc": "8PT",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "10pt",
+      "desc": "10PT",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "12pt",
+      "desc": "12PT",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "14pt",
+      "desc": "14PT",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "8pt",
+      "desc": "8PT",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "10pt",
+      "desc": "10PT",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "12pt",
+      "desc": "12PT",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "14pt",
+      "desc": "14PT",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "8pt",
+      "desc": "8PT",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "10pt",
+      "desc": "10PT",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "12pt",
+      "desc": "12PT",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "14pt",
+      "desc": "14PT",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "8pt",
+      "desc": "8PT",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "10pt",
+      "desc": "10PT",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "12pt",
+      "desc": "12PT",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "14pt",
+      "desc": "14PT",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "8pt",
+      "desc": "8PT",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "10pt",
+      "desc": "10PT",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "12pt",
+      "desc": "12PT",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "14pt",
+      "desc": "14PT",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "8pt",
+      "desc": "8PT",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "10pt",
+      "desc": "10PT",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "12pt",
+      "desc": "12PT",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "14pt",
+      "desc": "14PT",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "8pt",
+      "desc": "8PT",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "10pt",
+      "desc": "10PT",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "12pt",
+      "desc": "12PT",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "14pt",
+      "desc": "14PT",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "8pt",
+      "desc": "8PT",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "10pt",
+      "desc": "10PT",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "12pt",
+      "desc": "12PT",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.litho",
+    "fields": {
+      "code": "14pt",
+      "desc": "14PT",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "trial",
+      "desc": "Trial",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "inside",
+      "desc": "Inside",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "center",
+      "desc": "Center",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "outside",
+      "desc": "Outside",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "basis_weight",
+      "desc": "Basis Weight",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "brightness",
+      "desc": "Brightness",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_2_minute",
+      "desc": "Cobb - 2 Minute",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_30_minute",
+      "desc": "Cobb - 30 Minute",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "concora",
+      "desc": "CONCORA",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_base",
+      "desc": "Dyne - Base",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_top",
+      "desc": "Dyne - Top",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "i_bond",
+      "desc": "I Bond",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_opposite",
+      "desc": "Peel Opposite",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_true",
+      "desc": "Peel True",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "porosity",
+      "desc": "Porosity",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "ring_crush_cd",
+      "desc": "Ring Crush CD",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scott_bond",
+      "desc": "Scott Bond",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scuff",
+      "desc": "Scuff",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "slide_angle",
+      "desc": "Slide Angle",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "smoothness",
+      "desc": "Smoothness",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "stfi",
+      "desc": "STFI",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "quality_issue",
+      "desc": "Quality Issue",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "return",
+      "desc": "Return",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l1",
+      "desc": "L1",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m1",
+      "desc": "M1",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l2",
+      "desc": "L2",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m2",
+      "desc": "M2",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l3",
+      "desc": "L3",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m3",
+      "desc": "M3",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l4",
+      "desc": "L4",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "ect",
+      "desc": "ECT",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_db",
+      "desc": "Pins DB",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_mf",
+      "desc": "Pins MF",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "flat_crush",
+      "desc": "Flat Crush",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "cobb",
+      "desc": "Cobb",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "bct",
+      "desc": "BCT",
+      "plant": 1,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "trial",
+      "desc": "Trial",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "inside",
+      "desc": "Inside",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "center",
+      "desc": "Center",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "outside",
+      "desc": "Outside",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "basis_weight",
+      "desc": "Basis Weight",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "brightness",
+      "desc": "Brightness",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_2_minute",
+      "desc": "Cobb - 2 Minute",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_30_minute",
+      "desc": "Cobb - 30 Minute",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "concora",
+      "desc": "CONCORA",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_base",
+      "desc": "Dyne - Base",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_top",
+      "desc": "Dyne - Top",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "i_bond",
+      "desc": "I Bond",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_opposite",
+      "desc": "Peel Opposite",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_true",
+      "desc": "Peel True",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "porosity",
+      "desc": "Porosity",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "ring_crush_cd",
+      "desc": "Ring Crush CD",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scott_bond",
+      "desc": "Scott Bond",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scuff",
+      "desc": "Scuff",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "slide_angle",
+      "desc": "Slide Angle",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "smoothness",
+      "desc": "Smoothness",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "stfi",
+      "desc": "STFI",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "quality_issue",
+      "desc": "Quality Issue",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "return",
+      "desc": "Return",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l1",
+      "desc": "L1",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m1",
+      "desc": "M1",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l2",
+      "desc": "L2",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m2",
+      "desc": "M2",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l3",
+      "desc": "L3",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m3",
+      "desc": "M3",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l4",
+      "desc": "L4",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "ect",
+      "desc": "ECT",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_db",
+      "desc": "Pins DB",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_mf",
+      "desc": "Pins MF",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "flat_crush",
+      "desc": "Flat Crush",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "cobb",
+      "desc": "Cobb",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "bct",
+      "desc": "BCT",
+      "plant": 2,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "trial",
+      "desc": "Trial",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "inside",
+      "desc": "Inside",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "center",
+      "desc": "Center",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "outside",
+      "desc": "Outside",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "basis_weight",
+      "desc": "Basis Weight",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "brightness",
+      "desc": "Brightness",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_2_minute",
+      "desc": "Cobb - 2 Minute",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_30_minute",
+      "desc": "Cobb - 30 Minute",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "concora",
+      "desc": "CONCORA",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_base",
+      "desc": "Dyne - Base",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_top",
+      "desc": "Dyne - Top",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "i_bond",
+      "desc": "I Bond",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_opposite",
+      "desc": "Peel Opposite",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_true",
+      "desc": "Peel True",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "porosity",
+      "desc": "Porosity",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "ring_crush_cd",
+      "desc": "Ring Crush CD",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scott_bond",
+      "desc": "Scott Bond",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scuff",
+      "desc": "Scuff",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "slide_angle",
+      "desc": "Slide Angle",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "smoothness",
+      "desc": "Smoothness",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "stfi",
+      "desc": "STFI",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "quality_issue",
+      "desc": "Quality Issue",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "return",
+      "desc": "Return",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l1",
+      "desc": "L1",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m1",
+      "desc": "M1",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l2",
+      "desc": "L2",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m2",
+      "desc": "M2",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l3",
+      "desc": "L3",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m3",
+      "desc": "M3",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l4",
+      "desc": "L4",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "ect",
+      "desc": "ECT",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_db",
+      "desc": "Pins DB",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_mf",
+      "desc": "Pins MF",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "flat_crush",
+      "desc": "Flat Crush",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "cobb",
+      "desc": "Cobb",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "bct",
+      "desc": "BCT",
+      "plant": 3,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "trial",
+      "desc": "Trial",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "inside",
+      "desc": "Inside",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "center",
+      "desc": "Center",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "outside",
+      "desc": "Outside",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "basis_weight",
+      "desc": "Basis Weight",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "brightness",
+      "desc": "Brightness",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_2_minute",
+      "desc": "Cobb - 2 Minute",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_30_minute",
+      "desc": "Cobb - 30 Minute",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "concora",
+      "desc": "CONCORA",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_base",
+      "desc": "Dyne - Base",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_top",
+      "desc": "Dyne - Top",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "i_bond",
+      "desc": "I Bond",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_opposite",
+      "desc": "Peel Opposite",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_true",
+      "desc": "Peel True",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "porosity",
+      "desc": "Porosity",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "ring_crush_cd",
+      "desc": "Ring Crush CD",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scott_bond",
+      "desc": "Scott Bond",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scuff",
+      "desc": "Scuff",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "slide_angle",
+      "desc": "Slide Angle",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "smoothness",
+      "desc": "Smoothness",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "stfi",
+      "desc": "STFI",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "quality_issue",
+      "desc": "Quality Issue",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "return",
+      "desc": "Return",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l1",
+      "desc": "L1",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m1",
+      "desc": "M1",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l2",
+      "desc": "L2",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m2",
+      "desc": "M2",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l3",
+      "desc": "L3",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m3",
+      "desc": "M3",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l4",
+      "desc": "L4",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "ect",
+      "desc": "ECT",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_db",
+      "desc": "Pins DB",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_mf",
+      "desc": "Pins MF",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "flat_crush",
+      "desc": "Flat Crush",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "cobb",
+      "desc": "Cobb",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "bct",
+      "desc": "BCT",
+      "plant": 4,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "trial",
+      "desc": "Trial",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "inside",
+      "desc": "Inside",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "center",
+      "desc": "Center",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "outside",
+      "desc": "Outside",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "basis_weight",
+      "desc": "Basis Weight",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "brightness",
+      "desc": "Brightness",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_2_minute",
+      "desc": "Cobb - 2 Minute",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_30_minute",
+      "desc": "Cobb - 30 Minute",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "concora",
+      "desc": "CONCORA",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_base",
+      "desc": "Dyne - Base",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_top",
+      "desc": "Dyne - Top",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "i_bond",
+      "desc": "I Bond",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_opposite",
+      "desc": "Peel Opposite",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_true",
+      "desc": "Peel True",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "porosity",
+      "desc": "Porosity",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "ring_crush_cd",
+      "desc": "Ring Crush CD",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scott_bond",
+      "desc": "Scott Bond",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scuff",
+      "desc": "Scuff",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "slide_angle",
+      "desc": "Slide Angle",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "smoothness",
+      "desc": "Smoothness",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "stfi",
+      "desc": "STFI",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "quality_issue",
+      "desc": "Quality Issue",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "return",
+      "desc": "Return",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l1",
+      "desc": "L1",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m1",
+      "desc": "M1",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l2",
+      "desc": "L2",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m2",
+      "desc": "M2",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l3",
+      "desc": "L3",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m3",
+      "desc": "M3",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l4",
+      "desc": "L4",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "ect",
+      "desc": "ECT",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_db",
+      "desc": "Pins DB",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_mf",
+      "desc": "Pins MF",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "flat_crush",
+      "desc": "Flat Crush",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "cobb",
+      "desc": "Cobb",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "bct",
+      "desc": "BCT",
+      "plant": 5,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "trial",
+      "desc": "Trial",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "inside",
+      "desc": "Inside",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "center",
+      "desc": "Center",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "outside",
+      "desc": "Outside",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "basis_weight",
+      "desc": "Basis Weight",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "brightness",
+      "desc": "Brightness",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_2_minute",
+      "desc": "Cobb - 2 Minute",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_30_minute",
+      "desc": "Cobb - 30 Minute",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "concora",
+      "desc": "CONCORA",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_base",
+      "desc": "Dyne - Base",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_top",
+      "desc": "Dyne - Top",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "i_bond",
+      "desc": "I Bond",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_opposite",
+      "desc": "Peel Opposite",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_true",
+      "desc": "Peel True",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "porosity",
+      "desc": "Porosity",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "ring_crush_cd",
+      "desc": "Ring Crush CD",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scott_bond",
+      "desc": "Scott Bond",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scuff",
+      "desc": "Scuff",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "slide_angle",
+      "desc": "Slide Angle",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "smoothness",
+      "desc": "Smoothness",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "stfi",
+      "desc": "STFI",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "quality_issue",
+      "desc": "Quality Issue",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "return",
+      "desc": "Return",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l1",
+      "desc": "L1",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m1",
+      "desc": "M1",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l2",
+      "desc": "L2",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m2",
+      "desc": "M2",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l3",
+      "desc": "L3",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m3",
+      "desc": "M3",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l4",
+      "desc": "L4",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "ect",
+      "desc": "ECT",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_db",
+      "desc": "Pins DB",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_mf",
+      "desc": "Pins MF",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "flat_crush",
+      "desc": "Flat Crush",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "cobb",
+      "desc": "Cobb",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "bct",
+      "desc": "BCT",
+      "plant": 6,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "trial",
+      "desc": "Trial",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "inside",
+      "desc": "Inside",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "center",
+      "desc": "Center",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "outside",
+      "desc": "Outside",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "basis_weight",
+      "desc": "Basis Weight",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "brightness",
+      "desc": "Brightness",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_2_minute",
+      "desc": "Cobb - 2 Minute",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_30_minute",
+      "desc": "Cobb - 30 Minute",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "concora",
+      "desc": "CONCORA",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_base",
+      "desc": "Dyne - Base",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_top",
+      "desc": "Dyne - Top",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "i_bond",
+      "desc": "I Bond",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_opposite",
+      "desc": "Peel Opposite",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_true",
+      "desc": "Peel True",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "porosity",
+      "desc": "Porosity",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "ring_crush_cd",
+      "desc": "Ring Crush CD",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scott_bond",
+      "desc": "Scott Bond",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scuff",
+      "desc": "Scuff",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "slide_angle",
+      "desc": "Slide Angle",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "smoothness",
+      "desc": "Smoothness",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "stfi",
+      "desc": "STFI",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "quality_issue",
+      "desc": "Quality Issue",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "return",
+      "desc": "Return",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l1",
+      "desc": "L1",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m1",
+      "desc": "M1",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l2",
+      "desc": "L2",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m2",
+      "desc": "M2",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l3",
+      "desc": "L3",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m3",
+      "desc": "M3",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l4",
+      "desc": "L4",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "ect",
+      "desc": "ECT",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_db",
+      "desc": "Pins DB",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_mf",
+      "desc": "Pins MF",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "flat_crush",
+      "desc": "Flat Crush",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "cobb",
+      "desc": "Cobb",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "bct",
+      "desc": "BCT",
+      "plant": 7,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "trial",
+      "desc": "Trial",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestreason",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "inside",
+      "desc": "Inside",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "center",
+      "desc": "Center",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "outside",
+      "desc": "Outside",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertestposition",
+    "fields": {
+      "code": "null",
+      "desc": "null",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "basis_weight",
+      "desc": "Basis Weight",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "brightness",
+      "desc": "Brightness",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_2_minute",
+      "desc": "Cobb - 2 Minute",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "cobb_30_minute",
+      "desc": "Cobb - 30 Minute",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "concora",
+      "desc": "CONCORA",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_base",
+      "desc": "Dyne - Base",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "dyne_top",
+      "desc": "Dyne - Top",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "i_bond",
+      "desc": "I Bond",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_opposite",
+      "desc": "Peel Opposite",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "peel_true",
+      "desc": "Peel True",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "porosity",
+      "desc": "Porosity",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "ring_crush_cd",
+      "desc": "Ring Crush CD",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scott_bond",
+      "desc": "Scott Bond",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "scuff",
+      "desc": "Scuff",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "slide_angle",
+      "desc": "Slide Angle",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "smoothness",
+      "desc": "Smoothness",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.papertesttype",
+    "fields": {
+      "code": "stfi",
+      "desc": "STFI",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "normal",
+      "desc": "Normal Test",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "quality_issue",
+      "desc": "Quality Issue",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestreason",
+    "fields": {
+      "code": "return",
+      "desc": "Return",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l1",
+      "desc": "L1",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m1",
+      "desc": "M1",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l2",
+      "desc": "L2",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m2",
+      "desc": "M2",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l3",
+      "desc": "L3",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "m3",
+      "desc": "M3",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtestlayer",
+    "fields": {
+      "code": "l4",
+      "desc": "L4",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "ect",
+      "desc": "ECT",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_db",
+      "desc": "Pins DB",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "pins_mf",
+      "desc": "Pins MF",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "caliper",
+      "desc": "Caliper",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "flat_crush",
+      "desc": "Flat Crush",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "mullen",
+      "desc": "Mullen",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "moisture",
+      "desc": "Moisture",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "cobb",
+      "desc": "Cobb",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  },
+  {
+    "model": "api.combinedboardtesttype",
+    "fields": {
+      "code": "bct",
+      "desc": "BCT",
+      "plant": 8,
+      "created_at": "2020-04-20T00:04:20Z",
+      "last_updated": "2020-04-20T00:04:20Z"
+    }
+  }
+]
